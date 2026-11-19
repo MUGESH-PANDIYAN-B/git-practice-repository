@@ -28,7 +28,7 @@ public class BaseClass {
             }
             driver.manage().window().maximize();
         } catch (Exception e) {
-            Assert.fail("ERROR:Failed to launch browser: " + e.getMessage());
+            Assert.fail("ERROR:Failed to launch browse: " + e.getMessage());
 
         }
         return driver;
